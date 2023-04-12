@@ -1,0 +1,86 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url('../imagens/bg-desktop.svg')no-repeat;
+    background-size: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: hsl(257, 40%, 49%);
+    
+}
+
+main{
+    margin: 30px 80px 20px 80px;
+}
+
+.conteudo{
+    display: grid;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+}
+
+.informacoes{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.conteudo img{
+    width: 100%;
+}
+
+.conteudo h1{
+    text-transform: capitalize;
+    font-size: 3.4rem;
+    margin-bottom: 30px;
+}
+
+.conteudo p{
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+.conteudo a{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 14px 55px;
+    background-color: #fff;
+    border-radius: 40px;
+    color: hsl(257, 40%, 49%);
+    transition: 0.3s;
+}
+
+.conteudo a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.redes-sociais a:first-child{
+    padding: 5px 13px;
+}
+
+.redes-sociais a{
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.redes-sociais a:hover{
+    color: hsl(300, 69%, 71%);
+    border: solid 2px hsl(300, 69%, 71%);
+    font-weight: 600;
+}
