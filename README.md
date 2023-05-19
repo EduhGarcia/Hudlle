@@ -1,4 +1,4 @@
-# 😉 Projeto Hudlle
+# 😉 Projeto Huddle
 Foi um desafio proposto pelo Dev quest através do Frontend Mentor ( https://www.frontendmentor.io ) que testa o conhecimento de css e html avançado.
 
 # Dificuldades
